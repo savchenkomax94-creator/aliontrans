@@ -1,0 +1,9 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{@apply bg-bg text-white font-sans antialiased overflow-x-hidden}
+h1,h2,h3{@apply font-display}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.btn{@apply inline-flex items-center justify-center gap-2 min-h-[48px] px-7 font-display font-bold text-sm tracking-wide transition active:scale-95}
+.btn-a{@apply bg-accent text-black hover:brightness-110}.btn-o{@apply border border-white/30 hover:border-accent hover:text-accent}
+.field{@apply w-full bg-card border border-white/10 px-4 min-h-[48px] outline-none focus:border-accent text-sm}
+.wrap{@apply max-w-6xl mx-auto px-5}.sec{@apply py-20 md:py-28}.h2{@apply text-3xl md:text-5xl font-bold uppercase leading-tight}
